@@ -1,0 +1,310 @@
+{
+  "id": "ecommerce_store",
+  "name": "E-commerce Store",
+  "description": "Online store management system",
+  "schema": {
+    "models": [
+      {
+        "name": "product",
+        "fields": [
+          {
+            "identifier": "name",
+            "input_type": "string",
+            "field_type": "text",
+            "validation": { "required": true },
+            "serial": 1,
+            "label": "Product Name"
+          },
+          {
+            "identifier": "sku",
+            "input_type": "string",
+            "field_type": "text",
+            "validation": { "required": true, "unique": true },
+            "serial": 2,
+            "label": "SKU"
+          },
+          {
+            "identifier": "description",
+            "input_type": "string",
+            "field_type": "multiline",
+            "validation": { "required": true },
+            "serial": 3,
+            "label": "Description"
+          },
+          {
+            "identifier": "price",
+            "input_type": "double",
+            "field_type": "number",
+            "validation": { "required": true },
+            "serial": 4,
+            "label": "Price"
+          },
+          {
+            "identifier": "sale_price",
+            "input_type": "double",
+            "field_type": "number",
+            "validation": {},
+            "serial": 5,
+            "label": "Sale Price"
+          },
+          {
+            "identifier": "stock_quantity",
+            "input_type": "int",
+            "field_type": "number",
+            "validation": { "required": true },
+            "serial": 6,
+            "label": "Stock Quantity"
+          },
+          {
+            "identifier": "images",
+            "input_type": "string",
+            "field_type": "media",
+            "validation": { "is_gallery": true },
+            "serial": 7,
+            "label": "Product Images"
+          },
+          {
+            "identifier": "specifications",
+            "input_type": "repeated",
+            "field_type": "repeated",
+            "sub_field_info": [
+              {
+                "identifier": "_id",
+                "input_type": "string",
+                "field_type": "text",
+                "validation": { "hide": true, "unique": true },
+                "serial": 1,
+                "label": "ID",
+                "system_generated": true,
+                "parent_field": "specifications"
+              },
+              {
+                "identifier": "name",
+                "input_type": "string",
+                "field_type": "text",
+                "validation": { "required": true },
+                "serial": 2,
+                "label": "Specification Name",
+                "parent_field": "specifications"
+              },
+              {
+                "identifier": "value",
+                "input_type": "string",
+                "field_type": "text",
+                "validation": { "required": true },
+                "serial": 3,
+                "label": "Value",
+                "parent_field": "specifications"
+              }
+            ],
+            "validation": {},
+            "serial": 8,
+            "label": "Specifications"
+          },
+          {
+            "identifier": "status",
+            "input_type": "string",
+            "field_type": "list",
+            "validation": {
+              "fixed_list_elements": ["Active", "Inactive", "Out of Stock"]
+            },
+            "serial": 9,
+            "label": "Status"
+          },
+          {
+            "identifier": "store_location",
+            "input_type": "geo",
+            "field_type": "geo",
+            "validation": {},
+            "serial": 10,
+            "label": "Store Location"
+          }
+        ],
+        "connections": [
+          {
+            "model": "category",
+            "relation": "has_one",
+            "type": "forward",
+            "known_as": "productCategory"
+          },
+          {
+            "model": "order_item",
+            "relation": "has_many",
+            "type": "backward"
+          }
+        ],
+        "has_connections": true
+      },
+      {
+        "name": "category",
+        "fields": [
+          {
+            "identifier": "name",
+            "input_type": "string",
+            "field_type": "text",
+            "validation": { "required": true, "unique": true },
+            "serial": 1,
+            "label": "Category Name"
+          },
+          {
+            "identifier": "parent_category",
+            "input_type": "string",
+            "field_type": "text",
+            "validation": {},
+            "serial": 2,
+            "label": "Parent Category"
+          },
+          {
+            "identifier": "image",
+            "input_type": "string",
+            "field_type": "media",
+            "sub_field_info": [
+              {
+                "identifier": "url",
+                "input_type": "string",
+                "field_type": "text",
+                "parent_field": "image"
+              },
+              {
+                "identifier": "id",
+                "input_type": "string",
+                "field_type": "text",
+                "parent_field": "image"
+              },
+              {
+                "identifier": "file_name",
+                "input_type": "string",
+                "field_type": "text",
+                "parent_field": "image"
+              }
+            ],
+            "validation": {},
+            "serial": 3,
+            "label": "Category Image"
+          }
+        ],
+        "connections": [
+          {
+            "model": "product",
+            "relation": "has_many",
+            "type": "backward",
+            "known_as": "productCategory"
+          }
+        ],
+        "has_connections": true
+      },
+      {
+        "name": "customer",
+        "fields": [
+          {
+            "identifier": "first_name",
+            "input_type": "string",
+            "field_type": "text",
+            "validation": { "required": true },
+            "serial": 1,
+            "label": "First Name"
+          },
+          {
+            "identifier": "last_name",
+            "input_type": "string",
+            "field_type": "text",
+            "validation": { "required": true },
+            "serial": 2,
+            "label": "Last Name"
+          },
+          {
+            "identifier": "email",
+            "input_type": "string",
+            "field_type": "text",
+            "validation": { "required": true, "unique": true },
+            "serial": 3,
+            "label": "Email"
+          },
+          {
+            "identifier": "phone",
+            "input_type": "string",
+            "field_type": "text",
+            "validation": {},
+            "serial": 4,
+            "label": "Phone"
+          },
+          {
+            "identifier": "addresses",
+            "input_type": "repeated",
+            "field_type": "repeated",
+            "sub_field_info": [
+              {
+                "identifier": "_id",
+                "input_type": "string",
+                "field_type": "text",
+                "validation": { "hide": true, "unique": true },
+                "serial": 1,
+                "label": "ID",
+                "system_generated": true,
+                "parent_field": "addresses"
+              },
+              {
+                "identifier": "type",
+                "input_type": "string",
+                "field_type": "list",
+                "validation": {
+                  "fixed_list_elements": ["Billing", "Shipping", "Both"]
+                },
+                "serial": 2,
+                "label": "Address Type",
+                "parent_field": "addresses"
+              },
+              {
+                "identifier": "street",
+                "input_type": "string",
+                "field_type": "text",
+                "validation": { "required": true },
+                "serial": 3,
+                "label": "Street",
+                "parent_field": "addresses"
+              },
+              {
+                "identifier": "city",
+                "input_type": "string",
+                "field_type": "text",
+                "validation": { "required": true },
+                "serial": 4,
+                "label": "City",
+                "parent_field": "addresses"
+              },
+              {
+                "identifier": "postal_code",
+                "input_type": "string",
+                "field_type": "text",
+                "validation": { "required": true },
+                "serial": 5,
+                "label": "Postal Code",
+                "parent_field": "addresses"
+              },
+              {
+                "identifier": "location",
+                "input_type": "geo",
+                "field_type": "geo",
+                "validation": {},
+                "serial": 6,
+                "label": "GPS Location",
+                "parent_field": "addresses"
+              }
+            ],
+            "validation": {},
+            "serial": 5,
+            "label": "Addresses"
+          }
+        ],
+        "connections": [
+          {
+            "model": "order",
+            "relation": "has_many",
+            "type": "backward"
+          }
+        ],
+        "has_connections": true
+      }
+    ]
+  }
+}

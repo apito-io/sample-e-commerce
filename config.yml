@@ -1,0 +1,67 @@
+# Apito Engine Sample Project Configuration
+# Repository: https://github.com/apito-io/sample-e-commerce
+
+name: "E-commerce Store"
+slug: "sample-e-commerce"
+description: "A comprehensive e-commerce platform with products, orders, customers, and inventory management"
+project_type: "general" # general | saas
+version: "1.0.0"
+
+# Repository Information
+repository:
+  url: "https://github.com/apito-io/sample-e-commerce"
+  organization: "apito-io"
+  assets:
+    cover_image: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=800"
+    icon: "🛍️"
+    logo: ""
+
+# Schema Information
+schema:
+  models_count: 8
+  relationships_count: 14
+
+# Demo Data
+data:
+  sample_products: 50
+  sample_categories: 12
+  sample_customers: 20
+  sample_orders: 30
+  sample_reviews: 75
+
+# Project Metadata
+metadata:
+  category: "E-commerce"
+  difficulty: "Intermediate"
+  tags:
+    - "ecommerce"
+    - "shopping"
+    - "products"
+    - "orders"
+    - "inventory"
+    - "customers"
+    - "store"
+  keywords:
+    - "online store"
+    - "e-commerce platform"
+    - "product catalog"
+    - "shopping cart"
+    - "order management"
+    - "inventory tracking"
+    - "customer management"
+    - "payment processing"
+  use_cases:
+    - "Online retail store"
+    - "Product marketplace"
+    - "B2B commerce platform"
+    - "Inventory management system"
+    - "Multi-vendor marketplace"
+  key_features:
+    - "Product catalog management"
+    - "Shopping cart system"
+    - "Order processing"
+    - "Customer profiles"
+    - "Inventory tracking"
+    - "Category organization"
+    - "Review system"
+    - "Geographic locations"

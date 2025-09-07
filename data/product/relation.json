@@ -1,0 +1,242 @@
+{
+  "0867bf44-ef20-446f-8e51-2351c3097e82": {
+    "category": {
+      "id": "d4d9c2e2-7f00-47dc-83b0-b7baba3123b4",
+      "relation_type": "has_one"
+    }
+  },
+  "1943096a-ff15-4a45-b0b4-4d1aca2ec448": {
+    "category": {
+      "id": "ff4adc73-ead0-4bb3-9128-1cfc906e4db6",
+      "relation_type": "has_one"
+    }
+  },
+  "2766dacf-ebe1-4d5c-8ebd-6e81d6dbe8b5": {
+    "category": {
+      "id": "ba2f095f-a875-4737-bf59-8dbce29063e9",
+      "relation_type": "has_one"
+    }
+  },
+  "2e48fd85-b415-451a-8c24-56d8b7ba5d9e": {
+    "category": {
+      "id": "ba2f095f-a875-4737-bf59-8dbce29063e9",
+      "relation_type": "has_one"
+    }
+  },
+  "361c0fb7-eb1d-41bf-9c0b-b4b72f8bc795": {
+    "category": {
+      "id": "ba2f095f-a875-4737-bf59-8dbce29063e9",
+      "relation_type": "has_one"
+    }
+  },
+  "3c4e9782-9fbf-49c7-83f7-f50047ef028c": {
+    "category": {
+      "id": "9b206dfe-5b6e-4b29-b322-a7af20ed70ec",
+      "relation_type": "has_one"
+    }
+  },
+  "3e64e97f-e634-4c98-9ea4-5d6c73d87e3d": {
+    "category": {
+      "id": "ff4adc73-ead0-4bb3-9128-1cfc906e4db6",
+      "relation_type": "has_one"
+    }
+  },
+  "4d5acf93-42a7-4613-b8ec-ba4b8d9af18f": {
+    "category": {
+      "id": "f61b2eac-5740-476f-a9e3-abb9d3fcc1a3",
+      "relation_type": "has_one"
+    }
+  },
+  "54a31fa7-4a41-4c38-9873-f897d2e4af34": {
+    "category": {
+      "id": "d4d9c2e2-7f00-47dc-83b0-b7baba3123b4",
+      "relation_type": "has_one"
+    }
+  },
+  "5692e7ce-c1ff-44b0-85bd-bed81f4e7c88": {
+    "category": {
+      "id": "a95f6c75-39b6-4c5c-ba1c-936101dd73b7",
+      "relation_type": "has_one"
+    }
+  },
+  "59f5ce76-4a58-4608-9907-1a0e657bc4f1": {
+    "category": {
+      "id": "199537f7-d924-40f8-8b72-fa583a607e84",
+      "relation_type": "has_one"
+    }
+  },
+  "5baf7e88-1bcd-4f5b-8c8f-2047c07b7010": {
+    "category": {
+      "id": "d4d9c2e2-7f00-47dc-83b0-b7baba3123b4",
+      "relation_type": "has_one"
+    }
+  },
+  "6793ff2e-4cf5-4205-89d0-1975f631a815": {
+    "category": {
+      "id": "f61b2eac-5740-476f-a9e3-abb9d3fcc1a3",
+      "relation_type": "has_one"
+    }
+  },
+  "6dec7257-5886-4b2f-91a0-0b9e4253a35c": {
+    "category": {
+      "id": "a95f6c75-39b6-4c5c-ba1c-936101dd73b7",
+      "relation_type": "has_one"
+    }
+  },
+  "6fe3f9fb-bd05-4923-9439-5943ce8e810f": {
+    "category": {
+      "id": "f61b2eac-5740-476f-a9e3-abb9d3fcc1a3",
+      "relation_type": "has_one"
+    }
+  },
+  "7394cd52-a2f3-4a58-af46-62fb238c6448": {
+    "category": {
+      "id": "a95f6c75-39b6-4c5c-ba1c-936101dd73b7",
+      "relation_type": "has_one"
+    }
+  },
+  "7708b6f0-df34-4574-bf15-0d830d93cb6b": {
+    "category": {
+      "id": "199537f7-d924-40f8-8b72-fa583a607e84",
+      "relation_type": "has_one"
+    }
+  },
+  "783d6500-6e96-424d-bc71-bc0c1e2fa40f": {
+    "category": {
+      "id": "d4d9c2e2-7f00-47dc-83b0-b7baba3123b4",
+      "relation_type": "has_one"
+    }
+  },
+  "7ed5c014-7e58-4f25-b239-1988b3cc6d9b": {
+    "category": {
+      "id": "ba2f095f-a875-4737-bf59-8dbce29063e9",
+      "relation_type": "has_one"
+    }
+  },
+  "82a376c5-b2f2-4ae7-9898-98809157217d": {
+    "category": {
+      "id": "a95f6c75-39b6-4c5c-ba1c-936101dd73b7",
+      "relation_type": "has_one"
+    }
+  },
+  "859ee748-f360-4170-b6b1-e6b7cf8354bb": {
+    "category": {
+      "id": "9b206dfe-5b6e-4b29-b322-a7af20ed70ec",
+      "relation_type": "has_one"
+    }
+  },
+  "86f8fc7b-f0b6-4832-b0f7-093a19a22f60": {
+    "category": {
+      "id": "199537f7-d924-40f8-8b72-fa583a607e84",
+      "relation_type": "has_one"
+    }
+  },
+  "8c08e9bf-d5d5-4f95-b820-762f67ee46a6": {
+    "category": {
+      "id": "a95f6c75-39b6-4c5c-ba1c-936101dd73b7",
+      "relation_type": "has_one"
+    }
+  },
+  "942791f2-d4bb-49de-a8d9-1cf9f2a7e547": {
+    "category": {
+      "id": "ba2f095f-a875-4737-bf59-8dbce29063e9",
+      "relation_type": "has_one"
+    }
+  },
+  "98bd443b-52b1-40be-8594-6a3217aff983": {
+    "category": {
+      "id": "d4d9c2e2-7f00-47dc-83b0-b7baba3123b4",
+      "relation_type": "has_one"
+    }
+  },
+  "9a77a754-009d-4844-9060-be9d27b59040": {
+    "category": {
+      "id": "ba2f095f-a875-4737-bf59-8dbce29063e9",
+      "relation_type": "has_one"
+    }
+  },
+  "ac85b2a6-7f53-4a87-bf5f-866990f9350d": {
+    "category": {
+      "id": "9b206dfe-5b6e-4b29-b322-a7af20ed70ec",
+      "relation_type": "has_one"
+    }
+  },
+  "ad694e0d-ef11-4b46-a05e-eedc54a3852c": {
+    "category": {
+      "id": "ba2f095f-a875-4737-bf59-8dbce29063e9",
+      "relation_type": "has_one"
+    }
+  },
+  "aed6dc70-2cd4-44d9-96e2-5da110d8901a": {
+    "category": {
+      "id": "b6e6b6e3-0acb-481c-99fc-831cb9068a55",
+      "relation_type": "has_one"
+    }
+  },
+  "b9d3347a-ad09-42fe-ae26-acb2f4026af5": {
+    "category": {
+      "id": "ff4adc73-ead0-4bb3-9128-1cfc906e4db6",
+      "relation_type": "has_one"
+    }
+  },
+  "ba93a83a-d3d9-41f5-9dd3-00ead0523cdb": {
+    "category": {
+      "id": "d4d9c2e2-7f00-47dc-83b0-b7baba3123b4",
+      "relation_type": "has_one"
+    }
+  },
+  "bc2bfa62-4fb3-4008-8a9a-c47353f913b0": {
+    "category": {
+      "id": "b6e6b6e3-0acb-481c-99fc-831cb9068a55",
+      "relation_type": "has_one"
+    }
+  },
+  "be28e517-0394-4775-832e-28c7ab343cae": {
+    "category": {
+      "id": "ff4adc73-ead0-4bb3-9128-1cfc906e4db6",
+      "relation_type": "has_one"
+    }
+  },
+  "d7f8c0d5-1e9a-401d-a74b-5a282bfbb699": {
+    "category": {
+      "id": "a95f6c75-39b6-4c5c-ba1c-936101dd73b7",
+      "relation_type": "has_one"
+    }
+  },
+  "e2121729-2ab4-48a4-bee8-3108dd7f7a6f": {
+    "category": {
+      "id": "a95f6c75-39b6-4c5c-ba1c-936101dd73b7",
+      "relation_type": "has_one"
+    }
+  },
+  "e4a4b8fb-81bb-4cee-bd65-e031bec1f4e0": {
+    "category": {
+      "id": "d4d9c2e2-7f00-47dc-83b0-b7baba3123b4",
+      "relation_type": "has_one"
+    }
+  },
+  "e739ca58-3c8a-47fd-bd04-4407e5232544": {
+    "category": {
+      "id": "199537f7-d924-40f8-8b72-fa583a607e84",
+      "relation_type": "has_one"
+    }
+  },
+  "eddc51ce-b609-4e06-93ca-12382624b041": {
+    "category": {
+      "id": "d4d9c2e2-7f00-47dc-83b0-b7baba3123b4",
+      "relation_type": "has_one"
+    }
+  },
+  "f38925ea-f3e3-4369-8464-addcb0b9fe7a": {
+    "category": {
+      "id": "d4d9c2e2-7f00-47dc-83b0-b7baba3123b4",
+      "relation_type": "has_one"
+    }
+  },
+  "f931f9b7-f4e3-47cc-a4c2-47482ff2eac0": {
+    "category": {
+      "id": "a0764c53-b086-4f6e-973c-d734d0cf4503",
+      "relation_type": "has_one"
+    }
+  }
+}

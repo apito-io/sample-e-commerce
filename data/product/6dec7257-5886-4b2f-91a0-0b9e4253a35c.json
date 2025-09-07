@@ -1,0 +1,32 @@
+{
+  "_id": "6dec7257-5886-4b2f-91a0-0b9e4253a35c",
+  "description": "This is sample multiline content.",
+  "images": "https://images.unsplash.com/photo-1500000688856?w=800",
+  "name": "Sample product",
+  "price": 74.93591500392031,
+  "sale_price": 191.78727915476267,
+  "sku": "Sample sku for product",
+  "specifications": [
+    {
+      "_id": "Sample _id for array",
+      "name": "Sample array",
+      "value": "Sample value for array"
+    },
+    {
+      "_id": "Sample _id for array",
+      "name": "array Name",
+      "value": "Sample value for array"
+    },
+    {
+      "_id": "Sample _id for array",
+      "name": "Sample array",
+      "value": "Sample value for array"
+    }
+  ],
+  "status": "Inactive",
+  "stock_quantity": 811,
+  "store_location": {
+    "latitude": "-56.439718",
+    "longitude": "-55.757439"
+  }
+}

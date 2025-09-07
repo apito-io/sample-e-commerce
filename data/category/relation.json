@@ -1,0 +1,93 @@
+{
+  "199537f7-d924-40f8-8b72-fa583a607e84": {
+    "product": {
+      "ids": [
+        "e4a4b8fb-81bb-4cee-bd65-e031bec1f4e0",
+        "f931f9b7-f4e3-47cc-a4c2-47482ff2eac0",
+        "0867bf44-ef20-446f-8e51-2351c3097e82"
+      ],
+      "relation_type": "has_many"
+    }
+  },
+  "7a900880-0bbe-402e-be0d-9481ffdc957c": {
+    "product": {
+      "ids": [
+        "9a77a754-009d-4844-9060-be9d27b59040"
+      ],
+      "relation_type": "has_many"
+    }
+  },
+  "9b206dfe-5b6e-4b29-b322-a7af20ed70ec": {
+    "product": {
+      "ids": [
+        "ba93a83a-d3d9-41f5-9dd3-00ead0523cdb",
+        "5baf7e88-1bcd-4f5b-8c8f-2047c07b7010"
+      ],
+      "relation_type": "has_many"
+    }
+  },
+  "a0764c53-b086-4f6e-973c-d734d0cf4503": {
+    "product": {
+      "ids": [
+        "ac85b2a6-7f53-4a87-bf5f-866990f9350d",
+        "e739ca58-3c8a-47fd-bd04-4407e5232544",
+        "7ed5c014-7e58-4f25-b239-1988b3cc6d9b"
+      ],
+      "relation_type": "has_many"
+    }
+  },
+  "a95f6c75-39b6-4c5c-ba1c-936101dd73b7": {
+    "product": {
+      "ids": [
+        "d7f8c0d5-1e9a-401d-a74b-5a282bfbb699",
+        "3c4e9782-9fbf-49c7-83f7-f50047ef028c"
+      ],
+      "relation_type": "has_many"
+    }
+  },
+  "b6e6b6e3-0acb-481c-99fc-831cb9068a55": {
+    "product": {
+      "ids": [
+        "ad694e0d-ef11-4b46-a05e-eedc54a3852c",
+        "f38925ea-f3e3-4369-8464-addcb0b9fe7a",
+        "3e64e97f-e634-4c98-9ea4-5d6c73d87e3d"
+      ],
+      "relation_type": "has_many"
+    }
+  },
+  "ba2f095f-a875-4737-bf59-8dbce29063e9": {
+    "product": {
+      "ids": [
+        "e2121729-2ab4-48a4-bee8-3108dd7f7a6f",
+        "6fe3f9fb-bd05-4923-9439-5943ce8e810f",
+        "59f5ce76-4a58-4608-9907-1a0e657bc4f1"
+      ],
+      "relation_type": "has_many"
+    }
+  },
+  "d4d9c2e2-7f00-47dc-83b0-b7baba3123b4": {
+    "product": {
+      "ids": [
+        "783d6500-6e96-424d-bc71-bc0c1e2fa40f",
+        "1943096a-ff15-4a45-b0b4-4d1aca2ec448"
+      ],
+      "relation_type": "has_many"
+    }
+  },
+  "f61b2eac-5740-476f-a9e3-abb9d3fcc1a3": {
+    "product": {
+      "ids": [
+        "82a376c5-b2f2-4ae7-9898-98809157217d"
+      ],
+      "relation_type": "has_many"
+    }
+  },
+  "ff4adc73-ead0-4bb3-9128-1cfc906e4db6": {
+    "product": {
+      "ids": [
+        "5692e7ce-c1ff-44b0-85bd-bed81f4e7c88"
+      ],
+      "relation_type": "has_many"
+    }
+  }
+}

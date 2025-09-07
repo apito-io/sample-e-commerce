@@ -1,0 +1,31 @@
+{
+  "_id": "beac1a79-56f8-42a3-8f9e-fe1423fce078",
+  "addresses": [
+    {
+      "_id": "Sample _id for array",
+      "city": "Sample city for array",
+      "location": {
+        "latitude": "87.304731",
+        "longitude": "55.743764"
+      },
+      "postal_code": "Sample postal_code for array",
+      "street": "Sample street for array",
+      "type": "Both"
+    },
+    {
+      "_id": "Sample _id for array",
+      "city": "Sample city for array",
+      "location": {
+        "latitude": "9.625865",
+        "longitude": "-137.924927"
+      },
+      "postal_code": "Sample postal_code for array",
+      "street": "Sample street for array",
+      "type": "Billing"
+    }
+  ],
+  "email": "sample@demo.org",
+  "first_name": "Sample first_name for customer",
+  "last_name": "Sample last_name for customer",
+  "phone": "Sample phone for customer"
+}

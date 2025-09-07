@@ -1,0 +1,20 @@
+{
+  "_id": "c8ded59a-27c7-45d0-8adb-2e164adbd635",
+  "addresses": [
+    {
+      "_id": "Sample _id for array",
+      "city": "Sample city for array",
+      "location": {
+        "latitude": "-37.006868",
+        "longitude": "-145.545053"
+      },
+      "postal_code": "Sample postal_code for array",
+      "street": "Sample street for array",
+      "type": "Billing"
+    }
+  ],
+  "email": "user@sample.net",
+  "first_name": "Sample first_name for customer",
+  "last_name": "Sample last_name for customer",
+  "phone": "Sample phone for customer"
+}

@@ -1,0 +1,6 @@
+{
+  "_id": "ff4adc73-ead0-4bb3-9128-1cfc906e4db6",
+  "image": "https://images.unsplash.com/photo-1500000888223?w=800",
+  "name": "Test category",
+  "parent_category": "Sample parent_category for category"
+}
