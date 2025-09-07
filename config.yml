@@ -1,0 +1,78 @@
+# Apito Engine Sample Project Configuration
+# Repository: https://github.com/apito-io/sample-e-commerce
+
+name: "E-commerce Store"
+slug: "sample-e-commerce"
+description: "A complete e-commerce platform with product catalog, customer management, and geo-location features"
+project_type: "general" # general | saas
+version: "1.0.0"
+
+# Repository Information
+repository:
+  url: "https://github.com/apito-io/sample-e-commerce"
+  organization: "apito-io"
+  assets:
+    cover_image: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=800"
+    icon: "🛍️"
+    logo: ""
+
+# Schema Information
+schema:
+  models_count: 3
+  relationships_count: 3
+
+# Demo Data
+data:
+  folder_structure: "data/"
+  total_files: 78
+  models:
+    product:
+      count: 40
+      folder: "data/product/"
+      relation_format: "has_one: id (string), has_many: ids (array)"
+    category:
+      count: 10
+      folder: "data/category/"
+      relation_format: "has_many: ids (array)"
+    customer:
+      count: 25
+      folder: "data/customer/"
+      relation_format: "has_many: ids (array)"
+  relation_files: 3
+  uuid_based_filenames: true
+
+# Project Metadata
+metadata:
+  category: "E-commerce & Retail"
+  difficulty: "Beginner"
+  tags:
+    - "ecommerce"
+    - "shopping"
+    - "products"
+    - "customers"
+    - "catalog"
+    - "geo-location"
+    - "retail"
+  keywords:
+    - "online store"
+    - "e-commerce platform"
+    - "product catalog"
+    - "customer management"
+    - "geo-location"
+    - "media gallery"
+    - "specifications"
+  use_cases:
+    - "Online retail store"
+    - "Product catalog"
+    - "Customer database"
+    - "Inventory management"
+    - "Location-based services"
+  key_features:
+    - "Product catalog management"
+    - "Category organization"
+    - "Customer management with profiles"
+    - "Geo-location support for addresses"
+    - "Media gallery support"
+    - "Complete sample data with relationships"
+    - "UUID-based data files"
+    - "Relationship mapping with relation.json files"
